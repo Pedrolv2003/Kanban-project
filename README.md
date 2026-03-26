@@ -207,7 +207,7 @@ Filtrar no Calendário
 - Crie uma nova conta
 - Faça logout
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 kanban-project/
