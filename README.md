@@ -121,33 +121,33 @@ git clone https://github.com/seu-usuario/kanban-project.git
 cd kanban-project
 
 ### 2. Backend (Spring Boot)
-# Navegar até a pasta do backend
+Navegar até a pasta do backend
 cd backend
 cd api
 
-# Executar o Spring Boot (usando o wrapper do Maven)
+Executar o Spring Boot (usando o wrapper do Maven)
 ./mvnw spring-boot:run   # Linux/Mac
 mvnw.cmd spring-boot:run # Windows
 
 O backend será iniciado em: http://localhost:8080
 
 ### 3. Frontend (Vue.js)
-# Abrir um novo terminal, navegar até a pasta do frontend
+Abrir um novo terminal, navegar até a pasta do frontend
 cd frontend
 
-# Instalar as dependências
+Instalar as dependências
 npm install
 
-# Executar o servidor de desenvolvimento
+Executar o servidor de desenvolvimento
 npm run dev
 
 O frontend será iniciado em: http://localhost:5173
 
 ### 4. Acessar a Aplicação
-# Abra o navegador e acesse: http://localhost:5173
+Abra o navegador e acesse: http://localhost:5173
 
 ### Credenciais de Acesso
-# O sistema já possui um usuário administrador criado automaticamente na primeira execução:
+O sistema já possui um usuário administrador criado automaticamente na primeira execução:
 - Email	admin@kanban.com
 - Senha	admin123
 Dica: Você pode criar novas contas através da opção "Nova Conta" no menu de configurações (ícone de engrenagem).
@@ -156,28 +156,28 @@ Dica: Você pode criar novas contas através da opção "Nova Conta" no menu de 
 
 ### Página Principal (Kanban)
 
-# Criar Tarefa
+Criar Tarefa
 - Clique em "+ Nova tarefa" em qualquer coluna
 - Preencha título, descrição, responsável, data de início e data de fim
 - Clique em "Criar Tarefa"
 
-# Mover Tarefa
+Mover Tarefa
 - Arraste a tarefa com o mouse e solte na coluna desejada
 
-# Visualizar Detalhes
+Visualizar Detalhes
 - Clique uma vez: a tarefa expande mostrando mais informações
 - Clique novamente: abre página completa com todos os detalhes
 
-# Editar/Eliminar Tarefa
+Editar/Eliminar Tarefa
 - Na página de detalhes, use os botões "Editar Tarefa" ou "Eliminar Tarefa"
 
-# Criar Nova Coluna
+Criar Nova Coluna
 
 - Clique no botão "+ Nova Coluna" no cabeçalho
 - Escolha título, cor e ícone
 - A nova coluna será adicionada ao final
 
-# Filtrar Coluna
+Filtrar Coluna
 
 - Clique no ícone de funil (🔍) no cabeçalho da coluna
 - Preencha os campos desejados (ID, título, responsável, data)
@@ -185,16 +185,16 @@ Dica: Você pode criar novas contas através da opção "Nova Conta" no menu de 
 - Clique em "Aplicar Filtro"
 
 ### Calendário
-# Acessar Calendário
+Acessar Calendário
 - Clique no botão "Calendário" no cabeçalho
 - Navegar entre Meses
 - Use os botões "<" e ">" para mudar de mês
 
-# Visualizar Tarefas
+Visualizar Tarefas
 - Clique em qualquer dia para ver todas as tarefas daquele período
 - As tarefas aparecem na coluna direita
 
-# Filtrar no Calendário
+Filtrar no Calendário
 - Use os filtros (ID, título, responsável) para refinar a busca
 - Os filtros afetam a exibição das tarefas no calendário
 
@@ -236,12 +236,12 @@ kanban-project/
         └── main.js                  # Ponto de entrada
 
 ### Endpoints da API
-# Autenticação
+Autenticação
   Método - Endpoint - Descrição
 POST - /api/auth/login - Realiza login e retorna token JWT
 POST - /api/auth/register - Registra novo usuário
 
-# Tarefas
+Tarefas
   Método - Endpoint - Descrição
 GET - /api/tasks - Lista todas as tarefas
 GET - /api/tasks/{id} - Busca tarefa por ID
@@ -249,8 +249,8 @@ POST - /api/tasks - Cria nova tarefa
 PUT - /api/tasks/{id} - Atualiza tarefa
 DELETE - /api/tasks/{id} - Remove tarefa
 
-# Colunas
-# Método - Endpoint - Descrição
+Colunas
+  Método - Endpoint - Descrição
 GET - /api/columns - Lista todas as colunas
 POST - /api/columns - Cria nova coluna
 DELETE - /api/columns/{status} - Remove coluna
