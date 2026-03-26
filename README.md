@@ -117,7 +117,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 ## Instalação e Execução
 
 ### 1. Clonar o Repositório
-- git clone https://github.com/seu-usuario/kanban-project.git
+- git clone https://github.com/J-White17/kanban-project.git
 - cd kanban-project
 
 ### 2. Backend (Spring Boot)
