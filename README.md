@@ -207,7 +207,9 @@ Filtrar no Calendário
 - Crie uma nova conta
 - Faça logout
 
-### Estrutura do Projeto
+## 📁 Estrutura do Projeto
+
+```
 kanban-project/
 ├── backend/
 │   └── api/
@@ -237,6 +239,7 @@ kanban-project/
         │   └── Modal.vue
         ├── App.vue                  # Componente principal
         └── main.js                  # Ponto de entrada
+```
 
 ### Endpoints da API
 
