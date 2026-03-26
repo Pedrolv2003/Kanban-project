@@ -145,7 +145,7 @@ O frontend será iniciado em: http://localhost:5173
 ### 4. Acessar a Aplicação
 Abra o navegador e acesse: http://localhost:5173
 
-### Credenciais de Acesso
+## Credenciais de Acesso
 O sistema já possui um usuário administrador criado automaticamente na primeira execução:
 
 | Campo | Valor |
