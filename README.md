@@ -117,29 +117,29 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 ## Instalação e Execução
 
 ### 1. Clonar o Repositório
-git clone https://github.com/seu-usuario/kanban-project.git
-cd kanban-project
+- git clone https://github.com/seu-usuario/kanban-project.git
+- cd kanban-project
 
 ### 2. Backend (Spring Boot)
 Navegar até a pasta do backend
-cd backend
-cd api
+- cd backend
+- cd api
 
 Executar o Spring Boot (usando o wrapper do Maven)
-./mvnw spring-boot:run   # Linux/Mac
-mvnw.cmd spring-boot:run # Windows
+- ./mvnw spring-boot:run   # Linux/Mac
+- mvnw.cmd spring-boot:run # Windows
 
 O backend será iniciado em: http://localhost:8080
 
 ### 3. Frontend (Vue.js)
 Abrir um novo terminal, navegar até a pasta do frontend
-cd frontend
+- cd frontend
 
 Instalar as dependências
-npm install
+- npm install
 
 Executar o servidor de desenvolvimento
-npm run dev
+- npm run dev
 
 O frontend será iniciado em: http://localhost:5173
 
@@ -150,6 +150,7 @@ Abra o navegador e acesse: http://localhost:5173
 O sistema já possui um usuário administrador criado automaticamente na primeira execução:
 - Email	admin@kanban.com
 - Senha	admin123
+
 Dica: Você pode criar novas contas através da opção "Nova Conta" no menu de configurações (ícone de engrenagem).
 
 ## Guia de Uso
