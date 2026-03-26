@@ -20,8 +20,6 @@ Uma aplicação completa de gerenciamento de tarefas utilizando o método Kanban
 - [Guia de Uso](#guia-de-uso)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Endpoints da API](#endpoints-da-api)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ---
 
@@ -241,7 +239,7 @@ kanban-project/
         └── main.js                  # Ponto de entrada
 ```
 
-### Endpoints da API
+## Endpoints da API
 
 
 Autenticação
