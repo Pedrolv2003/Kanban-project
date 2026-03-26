@@ -122,8 +122,7 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
 
 ### 2. Backend (Spring Boot)
 Navegar até a pasta do backend
-- cd backend
-- cd api
+- cd backend/api
 
 Executar o Spring Boot (usando o wrapper do Maven)
 - ./mvnw spring-boot:run   # Linux/Mac
@@ -148,10 +147,13 @@ Abra o navegador e acesse: http://localhost:5173
 
 ### Credenciais de Acesso
 O sistema já possui um usuário administrador criado automaticamente na primeira execução:
-- Email	admin@kanban.com
-- Senha	admin123
 
-Dica: Você pode criar novas contas através da opção "Nova Conta" no menu de configurações (ícone de engrenagem).
+| Campo | Valor |
+|-------|-------|
+| **Email** | `admin@kanban.com` |
+| **Senha** | `admin123` |
+
+> 💡 **Dica:** Você pode criar novas contas através da opção **"Nova Conta"** no menu de configurações (ícone de engrenagem).
 
 ## Guia de Uso
 
