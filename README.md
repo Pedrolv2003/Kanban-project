@@ -239,21 +239,26 @@ kanban-project/
         └── main.js                  # Ponto de entrada
 
 ### Endpoints da API
+
+
 Autenticação
-  Método - Endpoint - Descrição
-POST - /api/auth/login - Realiza login e retorna token JWT
-POST - /api/auth/register - Registra novo usuário
+| Método | Endpoint | Descrição |
+|--------|----------|-----------|
+| POST | `/api/auth/login` | Realiza login e retorna token JWT |
+| POST | `/api/auth/register` | Registra novo usuário |
 
 Tarefas
-  Método - Endpoint - Descrição
-GET - /api/tasks - Lista todas as tarefas
-GET - /api/tasks/{id} - Busca tarefa por ID
-POST - /api/tasks - Cria nova tarefa
-PUT - /api/tasks/{id} - Atualiza tarefa
-DELETE - /api/tasks/{id} - Remove tarefa
+| Método | Endpoint | Descrição |
+|--------|----------|-----------|
+| GET | `/api/tasks` | Lista todas as tarefas |
+| GET | `/api/tasks/{id}` | Busca tarefa por ID |
+| POST | `/api/tasks` | Cria nova tarefa |
+| PUT | `/api/tasks/{id}` | Atualiza tarefa |
+| DELETE | `/api/tasks/{id}` | Remove tarefa |
 
 Colunas
-  Método - Endpoint - Descrição
-GET - /api/columns - Lista todas as colunas
-POST - /api/columns - Cria nova coluna
-DELETE - /api/columns/{status} - Remove coluna
+| Método | Endpoint | Descrição |
+|--------|----------|-----------|
+| GET | `/api/columns` | Lista todas as colunas |
+| POST | `/api/columns` | Cria nova coluna |
+| DELETE | `/api/columns/{status}` | Remove coluna |
